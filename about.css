@@ -1,0 +1,88 @@
+/* atur warna latar belakang dan font utama halaman */
+body {
+  background-color: #fffdf0; /* putih susu */
+  font-family: "Poppins", sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+/* judul bagian highlight member */
+.members-highlight h2 {
+  color: #520202;
+  font-weight: 600;
+}
+
+/* gambar member utama */
+.members-highlight img {
+  width: 200px;
+  height: 200px;
+  object-fit: cover;
+  border: 3px solid #be6d6d;
+}
+
+/* gaya umum untuk foto member */
+.member-photo {
+  width: 250px;
+  height: 250px;
+  object-fit: cover;
+  border-radius: 70%;
+  transition: transform 0.4s ease, box-shadow 0.4s ease;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
+}
+
+/* efek hover pada foto member */
+.member-photo:hover {
+  transform: scale(1.1);
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.25);
+}
+
+/* bagian footer bawah halaman */
+footer {
+  padding: 20px;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 10px;
+}
+/* kontainer ikon sosial media */
+footer .social-icons {
+  display: flex;
+  gap: 15px;
+  justify-content: center;
+}
+
+/* tampilan ikon sosmed */
+footer .social-icons a {
+  color: #520202;
+  font-size: 20px;
+  transition: color 0.3s ease;
+}
+
+/* hover untuk ikon sosmed */
+footer .social-icons a:hover {
+  color: #be6d6d;
+}
+
+/* teks hak cipta */
+footer p {
+  margin: 0;
+  font-size: 14px;
+  color: #777;
+}
+
+/* logo kecil di footer */
+footer .footer-logo {
+  width: 80px;
+  height: auto;
+  margin-top: 10px;
+}
+
+/* pastikan semua bagian utama punya background yang sama */
+body,
+.members-highlight,
+footer,
+nav,
+.navbar {
+  background-color: #fffdf0 !important;
+}

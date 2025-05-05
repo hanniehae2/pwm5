@@ -1,0 +1,100 @@
+/* mengatur warna dasar seluruh halaman */
+* {
+  background-color: #fffdf0; 
+  font-family: "Poppins", sans-serif; 
+}
+
+/* styling untuk judul di section music */
+.music-section h2 {
+  font-weight: 600; 
+  color: #520202; 
+}
+
+/* styling untuk paragraf di section music */
+.music-section p {
+  color: #555; 
+  font-size: 16px; 
+}
+
+/* styling untuk card musik */
+.music-card {
+  transition: transform 0.3s ease, box-shadow 0.3s ease; 
+  border: none; 
+  border-radius: 10px; 
+  overflow: hidden; 
+}
+
+/* efek hover untuk card musik */
+.music-card:hover {
+  transform: translateY(-5px); 
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.15); 
+}
+
+/* styling untuk gambar di dalam card musik */
+.music-card img {
+  width: 100%; 
+  height: auto; 
+  display: block; 
+}
+
+/* styling untuk body card musik */
+.music-card .card-body {
+  background-color: #fffdf0; 
+  padding: 1rem; 
+}
+
+/* styling untuk judul di dalam body card musik */
+.music-card .card-title {
+  color: #be6d6d; 
+  font-weight: 600; 
+}
+
+/* styling untuk deskripsi di dalam body card musik */
+.music-card .card-text {
+  color: #444; 
+  font-size: 14px; 
+}
+
+/* styling untuk footer */
+footer {
+  background-color: #fffdf0; 
+  padding: 20px; 
+  text-align: center; 
+  display: flex; 
+  flex-direction: column; 
+  align-items: center; 
+  gap: 10px; 
+}
+
+/* wrapper/kotak untuk ikon sosial media */
+footer .social-icons {
+  display: flex; 
+  gap: 15px; 
+  justify-content: center; 
+}
+
+/* styling untuk ikon sosial media */
+footer .social-icons a {
+  color: #520202; 
+  font-size: 20px;
+  transition: color 0.3s ease; 
+}
+
+/* efek hover pada ikon sosial media */
+footer .social-icons a:hover {
+  color: #be6d6d; 
+}
+
+/* styling untuk tulisan copyright */
+footer p {
+  margin: 0; 
+  font-size: 14px; 
+  color: #777; 
+}
+
+/* styling untuk logo kecil di footer */
+footer .footer-logo {
+  width: 80px; 
+  height: auto; 
+  margin-top: 10px; 
+}

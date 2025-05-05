@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en"> <!-- mendefinisikan bahasa utama dokumen sebagai inggris -->
+
+<head>
+    <!-- pengaturan karakter supaya teks tampil dengan baik -->
+    <meta charset="utf-8">
+
+    <!-- biar halaman responsif di berbagai ukuran layar -->
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- link ke file css eksternal khusus halaman about -->
+    <link rel="stylesheet" href="about.css" />
+
+    <!-- import font poppins dari google fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
+
+    <!-- import font awesome untuk pakai ikon-ikon sosial media -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" />
+
+    <!-- import bootstrap css buat styling dan grid responsif -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="..." crossorigin="anonymous">
+
+    <title>SEVENTEEN</title> <!-- judul yang muncul di tab browser -->
+</head>
+
+<body>
+
+    <!-- bagian navbar utama di atas -->
+    <nav class="navbar navbar-expand-lg navbar-light sticky-top">
+        <div class="container-fluid">
+            <!-- logo dan nama brand -->
+            <a class="navbar-brand" href="#">
+                <img src="./assets/logo.png" alt="Logo" width="30" height="30"
+                    class="d-inline-block align-text-top">SEVENTEEN
+            </a>
+            <!-- tombol buat collapse navbar saat layar kecil -->
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup"
+                aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <!-- daftar link navigasi -->
+            <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+                <div class="navbar-nav ms-auto">
+                    <a class="nav-link" href="index.html">Home</a>
+                    <a class="nav-link active" href="#">About</a>
+                    <a class="nav-link" href="music.html">Music</a>
+                    <a class="nav-link disabled">Disabled</a>
+                </div>
+            </div>
+        </div>
+    </nav>
+
+    <!-- bagian highlight member seventeen -->
+    <section class="members-highlight py-5">
+        <div class="container">
+            <h2 class="text-center mb-4">HIGHLIGHT MEMBER</h2>
+            <div class="row g-4 justify-content-center">
+                <!-- foto dan nama masing-masing member, responsif di semua layar -->
+                <div class="col-6 col-md-3 text-center">
+                    <img src="./assets/scoups.jpg" class="img-fluid member-photo mb-2" alt="S.Coups">
+                    <h6>S.Coups</h6>
+                </div>
+                <div class="col-6 col-md-3 text-center">
+                    <img src="./assets/jeonghan.jpg" class="img-fluid member-photo mb-2" alt="Jeonghan">
+                    <h6>Jeonghan</h6>
+                </div>
+                <div class="col-6 col-md-3 text-center">
+                    <img src="./assets/joshua.jpg" class="img-fluid member-photo mb-2" alt="Joshua">
+                    <h6>Joshua</h6>
+                </div>
+                <div class="col-6 col-md-3 text-center">
+                    <img src="./assets/junhui.jpg" class="img-fluid member-photo mb-2" alt="Jun">
+                    <h6>Jun</h6>
+                </div>
+                <div class="col-6 col-md-3 text-center">
+                    <img src="./assets/hoshi.jpg" class="img-fluid member-photo mb-2" alt="Hoshi">
+                    <h6>Hoshi</h6>
+                </div>
+                <div class="col-6 col-md-3 text-center">
+                    <img src="./assets/wonwoo.jpg" class="img-fluid member-photo mb-2" alt="Wonwoo">
+                    <h6>Wonwoo</h6>
+                </div>
+                <div class="col-6 col-md-3 text-center">
+                    <img src="./assets/woozi.jpg" class="img-fluid member-photo mb-2" alt="Woozi">
+                    <h6>Woozi</h6>
+                </div>
+                <div class="col-6 col-md-3 text-center">
+                    <img src="./assets/the8.jpg" class="img-fluid member-photo mb-2" alt="The8">
+                    <h6>The8</h6>
+                </div>
+                <div class="col-6 col-md-3 text-center">
+                    <img src="./assets/mingyu.jpg" class="img-fluid member-photo mb-2" alt="Mingyu">
+                    <h6>Mingyu</h6>
+                </div>
+                <div class="col-6 col-md-3 text-center">
+                    <img src="./assets/dokyeom.jpg" class="img-fluid member-photo mb-2" alt="Dokyeom">
+                    <h6>Dokyeom</h6>
+                </div>
+                <div class="col-6 col-md-3 text-center">
+                    <img src="./assets/seungkwan.jpg" class="img-fluid member-photo mb-2" alt="Seungkwan">
+                    <h6>Seungkwan</h6>
+                </div>
+                <div class="col-6 col-md-3 text-center">
+                    <img src="./assets/vernon.jpg" class="img-fluid member-photo mb-2" alt="Vernon">
+                    <h6>Vernon</h6>
+                </div>
+                <div class="col-6 col-md-3 text-center">
+                    <img src="./assets/dino.jpg" class="img-fluid member-photo mb-2" alt="Dino">
+                    <h6>Dino</h6>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- footer di bagian bawah halaman -->
+    <footer>
+        <div class="social-icons">
+            <!-- link ke sosial media dengan ikon -->
+            <a href="https://www.instagram.com/saythename_17"><i class="fab fa-instagram"></i></a>
+            <a href="https://x.com/pledis_17"><i class="fab fa-twitter"></i></a>
+            <a href="https://www.youtube.com/@pledis17"><i class="fab fa-youtube"></i></a>
+            <a href="https://www.tiktok.com/@seventeen17_official"><i class="fab fa-tiktok"></i></a>
+        </div>
+        <!-- copyright dan logo di footer -->
+        <p>&copy; 2025 Carat's Corner by Dhea. All rights reserved.</p>
+        <img src="./assets/logo.png" alt="Logo Carat's Corner" class="footer-logo">
+    </footer>
+
+    <!-- import bootstrap js supaya navbar collapse bisa berfungsi -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="..."
+        crossorigin="anonymous"></script>
+</body>
+</html>
